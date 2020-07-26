@@ -13,7 +13,17 @@ Our client now want to expand the data set to include the entire stock market ov
 
 ## Results
 Each table below shows the Ticker Name, Total Daily Volume, and Percentage Return for that specific year.
-<img src="https://github.com/jennfrbrown/stock-analysis/blob/master/Images%20for%20ReadMe/2017%262018.png" height = 200>
+<img src="https://github.com/jennfrbrown/stock-analysis/blob/master/Images%20for%20ReadMe/2017%262018.png" height = 300>
+
+### Performance
+All green stocks analyzed in 2017 had positive yearly returns.  However, in 2018, all but two stocks had negative yearly returns. In 2017, DQ had low total Volume, yet a high rate of return.  In 2018, DQ had a higher total volume, but a lower rater of return.  However, all but one of the twelve stocks analyzed had a decrease in yearly return.
+
+### Code
+The code for both "All Stocks Analysis" and "All Stocks Analysis Refactored" produce the same results.  In refactoring the code, it shows that even though both programs produce the same output, their may be faster, more efficient ways to code a program.
+
+The major difference between the two codes is that "All Stock Analysis" ran the analysis for a specific ticker on a worksheet holding the data, printed the output on an output worksheet, and then went back to the data worksheet to run the analysis for the next ticker.  The way the program was coded meant that it was constantly switching back and forth between worksheets.
+
+The code for "All Stocks Analysis Refactored" ran the analysis by gathering all the data in the data worksheet, storing it in an array, and then printing all outputs in the output worksheet.  This means there were was no need to constantly switch back and forth between worksheets, which produced a faster program run time.
 
 
 
