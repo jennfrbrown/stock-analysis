@@ -29,9 +29,27 @@ The code for "All Stocks Analysis Refactored" ran the analysis by gathering all 
 
 The refactored code ran approximately 4.38 times faster than the original code.  One thing to note is that as we continue to run the program, the run time will decrease slightly from its original run time.
 
-The decrease in run time comes from removing the nested loops and instead creating arrays to hold information.  Below is a comparison of the two codes showing the differences in the order of the steps coded.
+The decrease in run time comes from removing the nested loops and instead creating arrays to hold information.  Below is a comparison of the two codes showing the differences in the order of the steps coded. (Click on picture to enlarge)
 
-
-
+<img src="https://github.com/jennfrbrown/stock-analysis/blob/master/Images%20for%20ReadMe/CodeComparison.png">
 
 ## Summary
+### Advantages and Disadvantages of Refactoring Code
+The purpose of refactoring code is to improve the structure and design of the code while keeping its functionality.
+
+#### Advantages
+- Code Reability & Reduced Complexity: creating a cleaner, simpler architecture makes it easier to fix bugs
+- Improved Performance: runs faster or uses less memory
+- Expandibility: it is easier to expand on current capabilities if the coding uses easily identifiable patterns.
+
+#### Disadvantages
+- Effort: refactoring requires that you have some knowledge of the existing design, depending on where you enter this process it may take additional time to understand the original design/motivation
+- Introduction of bugs: by refactoring the code you may be introducing bugs that were not originally there, thus increasing the effort and time commitment required to produce a better application
+
+### Advantages and Disadvantages of the original and refactored VBA script
+As mentioned above one of the major advantages of refactoring this VBA script was the decrease in runtime.  By creating an array, we also created a cleaner  code structure.
+
+I don't know that I would identify this part of refactoring as a disadvantage, but rather a challenge.  In refactoring, you must have a firm knowledge of the original code.  If you don't know what the original code is doing, you can't improve on it.  If you don't have a firm knowledge of code in general,  you can't look at it and identify an alternate/better way to do it.
+
+
+
