@@ -25,6 +25,12 @@ The major difference between the two codes is that "All Stock Analysis" ran the 
 
 The code for "All Stocks Analysis Refactored" ran the analysis by gathering all the data in the data worksheet, storing it in an array, and then printing all outputs in the output worksheet.  This means there were was no need to constantly switch back and forth between worksheets, which produced a faster program run time.
 
+<img src="https://github.com/jennfrbrown/stock-analysis/blob/master/Images%20for%20ReadMe/2017TimeComparison.png">
+
+The refactored code ran approximately 4.38 times faster than the original code.  One thing to note is that as we continue to run the program, the run time will decrease slightly from its original run time.
+
+The decrease in run time comes from removing the nested loops and instead creating arrays to hold information.  Below is a comparison of the two codes showing the differences in the order of the steps coded.
+
 
 
 
