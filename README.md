@@ -13,7 +13,8 @@ Our client now want to expand the data set to include the entire stock market ov
 
 ## Results
 Each table below shows the Ticker Name, Total Daily Volume, and Percentage Return for that specific year.
-<img src="imagesforReadMe/2017&2018.PNG">
+<img src="2017&2018.png">
+
 
 
 
